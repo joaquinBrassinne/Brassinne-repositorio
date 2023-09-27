@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* -----------------posicionamiento----------------- */
+.nav-principal {
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 55px;
+}
+
+.icono img {
+    display: flex;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+}
+
+.nav-barra li {
+    
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.contenedor {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.productos {
+    height: 150px;
+    position: relative;
+    top: 150px;
+    width: 300px;
+}
+
+/* --------------------ESTILIZADO----------------------- */
+
+body {
+    background:linear-gradient(rgba(5, 7, 12, 0.219),rgba(5, 7, 12, 0.235)), url(2.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-principal {
+    background-color: rgba(49, 52, 59, 0.967);
+    z-index: 100;
+}
+
+.titulo {
+    color: rgb(188, 51, 2);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.icono img {
+    height: 45px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.productos h1 {
+    color: white;
+   
+}
+
+.productos,
+.texto {
+    color: white;
+    font: 20px;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+
+#productos h1 {
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    background-color: rgb(255, 124, 72);
+    color: white;
+    text-decoration: overline;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#carta:hover {
+    position: relative;
+    top: 30px;
+}
+
+#container-cards {
+    background-color: #FEF9E7;
+}
+
+#carta {
+    color: rgb(255, 124, 72);
+}
+
+#container-reseñas {
+    border-radius: 10px;
+    width: 1000px;
+}
+
+#opiniones h1 {
+    padding: 5px;
+    position: relative;
+    background-color: rgb(255, 124, 72);
+    color: white;
+    text-decoration: overline;
+    border-radius: 10px;
+    top: 10px;
+}
+
+#container-reseñas {
+    border-radius: 10px;
+    height: 200px;
+}
+
+#toast {
+    background-color: black;
+}
+
+#container-toast {
+    height: 370px;
+    border-radius: 20px;
+    background-color: #FEF9E7;
+    box-shadow: 10px 10px 10px 10px;
+    
+}
+
+/* ----------------------------------------------foooooter----------------------------------- */
+
+#footer{
+    margin-top: 30px;
+}
