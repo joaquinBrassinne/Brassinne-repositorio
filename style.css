@@ -57,7 +57,7 @@
 /* --------------------ESTILIZADO----------------------- */
 
 body {
-    background:linear-gradient(rgba(5, 7, 12, 0.219),rgba(5, 7, 12, 0.235)), url(2.png) no-repeat center center fixed;
+    background:linear-gradient(rgba(5, 7, 12, 0.219),rgba(5, 7, 12, 0.235)), url(./Imagenes/2.png) no-repeat center center fixed;
     background-size: cover;
 }
 
