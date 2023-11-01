@@ -13,11 +13,12 @@
 /* -----------------posicionamiento----------------- */
 
 .nav-principal {
+    height: auto;
     position: sticky;
     display: flex;
     text-align: center;
     justify-content: space-around;
-    height: 55px;
+    /* height: 55px; */
 }
 
 .icono img {
@@ -43,8 +44,9 @@
 
 
 #productos{
+    height: auto;
     padding: 0%;
-    margin: 0%;
+    margin: bottom 5px;;
 }
 
 #container-principal{
@@ -84,21 +86,26 @@
 }
 
 #suPedido{
-    
-    color: seagreen;
+    border: 1px yellow solid;
+    /* background-color: white; */
+    color: yellow;
     letter-spacing: 2px;
-    top: 10px;
     border-radius: 50px;
     letter-spacing: 2px;
     left: 250px;
     position: relative;
-    background-color: antiquewhite;
     padding: 10px;
+    height: auto;
     width: 500px;
-    /* margin-left: 10px; */
-    /* align-self: flex-end; */
+    margin-left: 10px;
+   
 }
 
+
+form{
+    padding: 0%;
+    margin: 0%;
+}
 
 /* --------------------ESTILIZADO----------------------- */
 
