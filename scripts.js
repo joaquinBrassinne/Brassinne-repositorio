@@ -43,7 +43,7 @@ function calcularPago() {
             break;
 
         default:
-            total = alert("Seleccione un tipo")
+            total = alert("¡Seleccione una categoria!")
             break;
     }
 
@@ -56,6 +56,12 @@ function calcularPago() {
 btnResumen.addEventListener('click', (e) => {
     e.preventDefault();
     calcularPago();
+    pagoEnviado();
 });
 
 
+function pagoEnviado(){
+    const gmailU = document.getElementById('exampleFormControlInput1').value
+
+    alert(`Pago recibido mandaremos un gmail a: ${gmailU} para confirmar su compra.`);
+}
